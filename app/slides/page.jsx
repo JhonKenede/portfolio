@@ -3,9 +3,8 @@
 import Image from "next/image";
 
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Pagination } from "swiper/modules";
-import { Autoplay, FreeMode } from "swiper/modules";
-import { images } from "@/lib/images";
+import { Navigation, Pagination, Autoplay, FreeMode } from "swiper/modules";
+import { images } from "@/app/lib/images";
 
 import "swiper/css";
 import "swiper/css/navigation";
